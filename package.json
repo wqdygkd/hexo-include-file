@@ -1,0 +1,24 @@
+{
+  "name": "hexo-include-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "cuilongjin <cui3155@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-wqdy": "^0.0.3",
+    "got": "^11.8.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wqdy"
+    ],
+    "globals": {
+      "hexo": "readonly"
+    }
+  }
+}
